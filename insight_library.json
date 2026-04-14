@@ -1,0 +1,267 @@
+[
+  {
+    "insight": "You follow habits more consistently in the morning.",
+    "suggestion": "Prioritize important tasks early in the day.",
+    "embedding": []
+  },
+  {
+    "insight": "Your consistency drops midweek.",
+    "suggestion": "Reduce load or add reminders midweek.",
+    "embedding": []
+  },
+  {
+    "insight": "Positive journaling correlates with higher habit completion.",
+    "suggestion": "Reflect on achievements daily to maintain motivation.",
+    "embedding": []
+  },
+  {
+    "insight": "You often skip workouts when goals feel unclear.",
+    "suggestion": "Set small daily targets to stay motivated.",
+    "embedding": []
+  },
+  {
+    "insight": "Evening journaling improves self-awareness and goal adjustments.",
+    "suggestion": "Keep a nightly reflection habit.",
+    "embedding": []
+  },
+  {
+    "insight": "High consistency streaks occur after a weekend reset.",
+    "suggestion": "Plan weekly resets or reviews to boost midweek performance.",
+    "embedding": []
+  },
+  {
+    "insight": "You achieve goals faster when paired with specific habits.",
+    "suggestion": "Bundle habits strategically to reach goals efficiently.",
+    "embedding": []
+  },
+  {
+    "insight": "Ambitious goals can reduce habit consistency.",
+    "suggestion": "Break goals into smaller, achievable milestones.",
+    "embedding": []
+  },
+  {
+    "insight": "Stressful journal entries often precede missed habits.",
+    "suggestion": "Add stress relief routines to prevent habit drop-off.",
+    "embedding": []
+  },
+  {
+    "insight": "You often journal about challenges but rarely solutions.",
+    "suggestion": "End each journal entry with one actionable step.",
+    "embedding": []
+  },
+  {
+    "insight": "You track habits more consistently on weekdays than weekends.",
+    "suggestion": "Plan weekend-friendly routines to maintain consistency.",
+    "embedding": []
+  },
+  {
+    "insight": "Motivation spikes on Fridays, reflected in journals and habit completion.",
+    "suggestion": "Schedule important tasks toward the end of the week.",
+    "embedding": []
+  },
+  {
+    "insight": "Habit streaks decline when journaling is skipped.",
+    "suggestion": "Maintain daily journaling to sustain consistency.",
+    "embedding": []
+  },
+  {
+    "insight": "Your focus decreases after long goal-related tasks.",
+    "suggestion": "Use short breaks or micro-habits to recharge.",
+    "embedding": []
+  },
+  {
+    "insight": "When goals are vague, habit completion drops.",
+    "suggestion": "Clarify goal steps in your journal for better tracking.",
+    "embedding": []
+  },
+  {
+    "insight": "You often set goals without linking them to daily habits.",
+    "suggestion": "Align daily habits with weekly or monthly goals.",
+    "embedding": []
+  },
+  {
+    "insight": "Even small achievements boost habit adherence.",
+    "suggestion": "Celebrate micro-wins to maintain motivation.",
+    "embedding": []
+  },
+  {
+    "insight": "You are more likely to follow habits after reflecting on past successes.",
+    "suggestion": "Review past achievements weekly to reinforce habits.",
+    "embedding": []
+  },
+  {
+    "insight": "Journaling about obstacles increases problem-solving.",
+    "suggestion": "Note challenges and brainstorm solutions each day.",
+    "embedding": []
+  },
+  {
+    "insight": "Habits performed with external accountability show higher consistency.",
+    "suggestion": "Share goals with friends or use reminders.",
+    "embedding": []
+  },
+  {
+    "insight": "You tend to skip habits when overwhelmed by multiple goals.",
+    "suggestion": "Prioritize 1–2 key goals per week.",
+    "embedding": []
+  },
+  {
+    "insight": "Habit completion drops when goals are not tracked in the journal.",
+    "suggestion": "Integrate goal tracking into daily journaling.",
+    "embedding": []
+  },
+  {
+    "insight": "Stress peaks correlate with missed habits in midweek.",
+    "suggestion": "Schedule light tasks or stress relief on midweek days.",
+    "embedding": []
+  },
+  {
+    "insight": "You often perform habits better when reviewing progress weekly.",
+    "suggestion": "Set a weekly review habit to reinforce behavior.",
+    "embedding": []
+  },
+  {
+    "insight": "Large habit clusters tend to collapse without clear priority.",
+    "suggestion": "Focus on 2–3 habits at a time for best results.",
+    "embedding": []
+  },
+  {
+    "insight": "Evening reflection improves emotional awareness for goal alignment.",
+    "suggestion": "Add a 5-minute nightly journaling routine.",
+    "embedding": []
+  },
+  {
+    "insight": "You procrastinate habits that feel disconnected from goals.",
+    "suggestion": "Link every habit to a measurable goal.",
+    "embedding": []
+  },
+  {
+    "insight": "Tracking emotional trends increases habit adherence.",
+    "suggestion": "Log moods alongside habits for insights.",
+    "embedding": []
+  },
+  {
+    "insight": "Skipping weekend planning reduces midweek productivity.",
+    "suggestion": "Plan weekend catch-up sessions to maintain rhythm.",
+    "embedding": []
+  },
+  {
+    "insight": "Your goal completion spikes after journaling successes.",
+    "suggestion": "End each week by recording achievements.",
+    "embedding": []
+  },
+  {
+    "insight": "You perform habits more consistently when goals are specific.",
+    "suggestion": "Refine vague goals into measurable steps.",
+    "embedding": []
+  },
+  {
+    "insight": "Habit tracking without reflection leads to shallow compliance.",
+    "suggestion": "Combine habit tracking with journaling notes.",
+    "embedding": []
+  },
+  {
+    "insight": "You are more motivated after reviewing past failures.",
+    "suggestion": "Reflect on challenges as learning opportunities.",
+    "embedding": []
+  },
+  {
+    "insight": "Positive reinforcement from small wins improves goal engagement.",
+    "suggestion": "Reward yourself for completing mini-goals.",
+    "embedding": []
+  },
+  {
+    "insight": "Stressful days reduce habit completion consistency.",
+    "suggestion": "Introduce short coping strategies on high-stress days.",
+    "embedding": []
+  },
+  {
+    "insight": "Journaling about future plans improves action execution.",
+    "suggestion": "Include a forward-looking section in your journal.",
+    "embedding": []
+  },
+  {
+    "insight": "You complete habits more consistently when visible in a tracker.",
+    "suggestion": "Use visual tracking or streak indicators.",
+    "embedding": []
+  },
+  {
+    "insight": "Your habits correlate strongly with mood swings.",
+    "suggestion": "Adjust habit intensity based on emotional state.",
+    "embedding": []
+  },
+  {
+    "insight": "Large, ambitious weekly goals reduce habit adherence.",
+    "suggestion": "Break weekly goals into daily micro-goals.",
+    "embedding": []
+  },
+  {
+    "insight": "You tend to overcommit when multiple goals coincide.",
+    "suggestion": "Prioritize and limit goal focus each week.",
+    "embedding": []
+  },
+  {
+    "insight": "Weekly reflection helps identify recurring obstacles.",
+    "suggestion": "Create a weekly journal summary of challenges.",
+    "embedding": []
+  },
+  {
+    "insight": "Your best habit performance occurs after a good night's sleep.",
+    "suggestion": "Prioritize sleep to maintain habit consistency.",
+    "embedding": []
+  },
+  {
+    "insight": "You are more likely to achieve goals when progress is measured daily.",
+    "suggestion": "Track progress every day to maintain momentum.",
+    "embedding": []
+  },
+  {
+    "insight": "Positive emotion journaling boosts habit motivation.",
+    "suggestion": "Reflect on what went well each day.",
+    "embedding": []
+  },
+  {
+    "insight": "You often abandon habits after a streak break.",
+    "suggestion": "Implement a 'restart' strategy instead of quitting.",
+    "embedding": []
+  },
+  {
+    "insight": "Midday breaks increase afternoon habit completion.",
+    "suggestion": "Schedule short breaks to recharge energy.",
+    "embedding": []
+  },
+  {
+    "insight": "Visualization of goals improves habit adherence.",
+    "suggestion": "Visualize the outcome of your habits daily.",
+    "embedding": []
+  },
+  {
+    "insight": "You complete habits more consistently when logged immediately.",
+    "suggestion": "Log habits in real time instead of at day's end.",
+    "embedding": []
+  },
+  {
+    "insight": "Goal clarity correlates with habit execution.",
+    "suggestion": "Define each goal clearly in your journal.",
+    "embedding": []
+  },
+  {
+    "insight": "You tend to cluster habits but neglect some consistently.",
+    "suggestion": "Rotate focus on neglected habits periodically.",
+    "embedding": []
+  },
+  {
+    "insight": "Even small positive journal notes improve motivation.",
+    "suggestion": "Write at least one positive note per entry.",
+    "embedding": []
+  },
+  {
+    "insight": "Visual cues and reminders increase habit follow-through.",
+    "suggestion": "Use phone reminders or habit widgets.",
+    "embedding": []
+  },
+  {
+    "insight": "You perform better when reviewing previous week's journal entries.",
+    "suggestion": "Schedule weekly review sessions for insights.",
+    "embedding": []
+  }
+]
