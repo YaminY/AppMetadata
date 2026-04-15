@@ -4,23 +4,6 @@
   "updated_at": "2026-04-09",
   "models": [
     {
-      "id": "bge-small",
-      "name": "BGE Small Embedding",
-      "filename": "bge-small-en-v1.5-f16.gguf",
-      "repo": "CompendiumLabs/bge-small-en-v1.5-gguf",
-      "url": "https://huggingface.co/CompendiumLabs/bge-small-en-v1.5-gguf/resolve/d32f8c040ea3b516330eeb75b72bcc2d3a780ab7/bge-small-en-v1.5-f16.gguf?download=true",
-      "sha256": "f0b2fef971e8366438bfd2d9aefea1b0115919389448806d290237f638bae999",
-      "size_bytes": 67308093,
-      "size_mb": 64.19,
-      "type": "embedding",
-      "format": "gguf",
-      "quantization": "f16",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low", "medium", "high"],
-      "min_ram_gb": 3
-    },
-    {
       "id": "tinyllama",
       "name": "TinyLlama 1.1B Chat",
       "filename": "tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf",
