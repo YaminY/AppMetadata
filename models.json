@@ -4,106 +4,46 @@
   "updated_at": "2026-04-09",
   "models": [
     {
-      "id": "tinyllama",
-      "name": "TinyLlama 1.1B Chat",
-      "filename": "tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf",
-      "repo": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
-      "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/52e7645ba7c309695bec7ac98f4f005b139cf465/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf?download=true",
-      "sha256": "aa54a5fb99ace5b964859cf072346631b2da6109715a805d07161d157c66ce7f",
-      "size_bytes": 783013642,
-      "size_mb": 746.74,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q5_K_M",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low"],
-      "min_ram_gb": 3
-    },
-    {
-      "id": "phi-3.5-mini",
-      "name": "Phi-3.5 Mini Instruct",
-      "filename": "Phi-3.5-mini-instruct-Q4_K_M.gguf",
-      "repo": "bartowski/Phi-3.5-mini-instruct-GGUF",
-      "url": "https://huggingface.co/bartowski/Phi-3.5-mini-instruct-GGUF/resolve/6d70da17e749a471ccb62ade694486011a75cda3/Phi-3.5-mini-instruct-Q4_K_M.gguf?download=true",
-      "sha256": "e4165e3a71af97f1b4820da61079826d8752a2088e313af0c7d346796c38eff5",
-      "size_bytes": 2393215799,
-      "size_mb": 2282.36,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q4_K_M",
-      "enabled": true,
-      "tiers": ["medium", "high"],
-      "recommended_tiers": ["medium"],
-      "min_ram_gb": 6
-    },
-    {
-      "id": "qwen-2.5-3b",
-      "name": "Qwen 2.5 3B Instruct",
-      "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
-      "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
-      "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
-      "size_bytes": 2104933251,
-      "size_mb": 2007.42,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q4_K_M",
-      "enabled": true,
-      "tiers": ["high"],
-      "recommended_tiers": ["high"],
-      "min_ram_gb": 8
-    },
-    {
-      "id": "whisper-tiny",
-      "name": "Whisper Tiny",
-      "filename": "ggml-tiny-q5_1.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny-q5_1.bin?download=true",
-      "sha256": "818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7",
-      "size_bytes": 32149340,
-      "size_mb": 30.66,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "q5_1",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low"],
-      "min_ram_gb": 3
-    },
-    {
-      "id": "whisper-base",
-      "name": "Whisper Base",
-      "filename": "ggml-base-q5_1.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin?download=true",
-      "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
-      "size_bytes": 59606262,
-      "size_mb": 56.94,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "q5_1",
-      "enabled": true,
-      "tiers": ["medium", "high"],
-      "recommended_tiers": ["medium"],
-      "min_ram_gb": 4
-    },
-    {
-      "id": "whisper-small",
-      "name": "Whisper Small",
-      "filename": "ggml-small-q5_1.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin?download=true",
-      "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
-      "size_bytes": 190086021,
-      "size_mb": 181.28,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "q5_1",
-      "enabled": true,
-      "tiers": ["high"],
-      "recommended_tiers": ["high"],
-      "min_ram_gb": 6
-    }
-  ]
+            "name": "qwen2.5-3b-instruct-q4_k_m.gguf",
+            "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
+            "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
+            "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+            "size_mb": 2007.42
+        },
+        {
+            "name": "tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf",
+            "repo": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF",
+            "url": "https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/52e7645ba7c309695bec7ac98f4f005b139cf465/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf?download=true",
+            "sha256": "aa54a5fb99ace5b964859cf072346631b2da6109715a805d07161d157c66ce7f",
+            "size_mb": 746.74
+        },
+        {
+            "name": "Q4_K_M/Q4_K_M-00001-of-00001.gguf",
+            "repo": "LiteLLMs/gemma-2b-it-GGUF",
+            "url": "https://huggingface.co/LiteLLMs/gemma-2b-it-GGUF/resolve/b9eca650752e3dcb34f5693b9588f3c5ba424c81/Q4_K_M/Q4_K_M-00001-of-00001.gguf?download=true",
+            "sha256": "5a4add284b691e7619252f60956b02fbf09baa37442e59ff9c375c3173f39c48",
+            "size_mb": 1554.74
+        },
+        {
+            "name": "ggml-small-q5_1.bin",
+            "repo": "ggerganov/whisper.cpp",
+            "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q5_1.bin?download=true",
+            "sha256": "ae85e4a935d7a567bd102fe55afc16bb595bdb618e11b2fc7591bc08120411bb",
+            "size_mb": 181.28
+        },
+        {
+            "name": "ggml-tiny-q5_1.bin",
+            "repo": "ggerganov/whisper.cpp",
+            "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-tiny-q5_1.bin?download=true",
+            "sha256": "818710568da3ca15689e31a743197b520007872ff9576237bda97bd1b469c3d7",
+            "size_mb": 30.66
+        },
+        {
+            "name": "ggml-base-q5_1.bin",
+            "repo": "ggerganov/whisper.cpp",
+            "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base-q5_1.bin?download=true",
+            "sha256": "422f1ae452ade6f30a004d7e5c6a43195e4433bc370bf23fac9cc591f01a8898",
+            "size_mb": 56.94
+        }
+    ]
 }
