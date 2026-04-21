@@ -4,6 +4,13 @@
   "updated_at": "2026-04-09",
   "models": [
     {
+            "name": "model_quantized.onnx",
+            "repo": "keisuke-miyako/bge-m3-onnx-int8",
+            "url": "https://huggingface.co/keisuke-miyako/bge-m3-onnx-int8/resolve/555b6999f110948bd61b9000e4d1d8d6197e2735/model_quantized.onnx?download=true",
+            "sha256": "56ae6f25bc41d23fd927ad10578e8510d5668d519dceeb34025f2816d24bf8dc",
+            "size_mb": 542.22
+        },
+        {
             "name": "qwen2.5-3b-instruct-q4_k_m.gguf",
             "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
             "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
