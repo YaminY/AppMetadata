@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
   "min_app_version": "1.0.0",
-  "updated_at": "2026-04-09",
+  "updated_at": "2026-04-21",
   "models": [
     {
             "name": "model_quantized.onnx",
