@@ -72,8 +72,8 @@
       "min_ram_gb": 5
     },
     {
-      "id": "whisper-tiny",
-      "name": "Whisper Base Fast",
+      "id": "whisper-base",
+      "name": "Whisper Base “Fast”",
       "filename": "ggml-base.bin",
       "repo": "ggerganov/whisper.cpp",
       "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin?download=true",
@@ -82,14 +82,14 @@
       "size_mb": 141.1,
       "type": "speech",
       "format": "bin",
-      "quantization": "q5_1",
+      "quantization": "F16",
       "enabled": true,
       "tiers": ["low", "medium", "high"],
       "recommended_tiers": ["low"],
       "min_ram_gb": 4
     },
     {
-      "id": "whisper-base",
+      "id": "whisper-small",
       "name": "Whisper Small Balanced",
       "filename": "ggml-small-q8_0.bin",
       "repo": "ggerganov/whisper.cpp",
@@ -106,7 +106,7 @@
       "min_ram_gb": 6
     },
     {
-      "id": "whisper-small",
+      "id": "whisper-large-v3-turbo",
       "name": "Whisper Large V3 Turbo Maximum Accuracy",
       "filename": "ggml-large-v3-turbo-q8_0.bin",
       "repo": "ggerganov/whisper.cpp",
