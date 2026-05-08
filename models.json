@@ -1,126 +1,563 @@
 {
-  "version": "1.3.0",
-  "min_app_version": "1.0.0",
-  "updated_at": "2026-05-02",
-  "models": [
-    {
-      "id": "bge-m3",
-      "name": "BGE-M3 Multilingual Embedding",
-      "filename": "model_quantized.onnx",
-      "repo": "keisuke-miyako/bge-m3-onnx-int8",
-      "url": "https://huggingface.co/keisuke-miyako/bge-m3-onnx-int8/resolve/555b6999f110948bd61b9000e4d1d8d6197e2735/model_quantized.onnx?download=true",
-      "sha256": "56ae6f25bc41d23fd927ad10578e8519dceeb34025f2816d24bf8dc",
-      "size_bytes": 568587100,
-      "size_mb": 542.22,
-      "type": "embedding",
-      "format": "onnx",
-      "quantization": "int8",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low", "medium", "high"],
-      "min_ram_gb": 3
-    },
-    {
-      "id": "qwen-2.5-1.5b",
-      "name": "Qwen2.5 1.5B Fast & Accurate",
-      "filename": "qwen2.5-1.5b-instruct-q5_k_m.gguf",
-      "repo": "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q5_k_m.gguf?download=true",
-      "sha256": "b46661073c18e5b56a41fa320975f866a00def1ff08feef4718e013258896f8c",
-      "size_bytes": 1285493120,
-      "size_mb": 1225.94,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q5_K_M",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low"],
-      "min_ram_gb": 4
-    },
-    {
-      "id": "gemma2-2b",
-      "name": "Gemma2 2B Smooth and reliable",
-      "filename": "Q4_K_M/Q4_K_M-00001-of-00001.gguf",
-      "repo": "LiteLLMs/gemma-2b-it-GGUF",
-      "url": "https://huggingface.co/LiteLLMs/gemma-2b-it-GGUF/resolve/b9eca650752e3dcb34f5693b9588f3c5ba424c81/Q4_K_M/Q4_K_M-00001-of-00001.gguf?download=true",
-      "sha256": "5a4add284b691e7619252f60956b02fbf09baa37442e59ff9c375c3173f39c48",
-      "size_bytes": 1630263328,
-      "size_mb": 1554.74,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q4_K_M",
-      "enabled": true,
-      "tiers": ["medium", "high"],
-      "recommended_tiers": ["medium"],
-      "min_ram_gb": 4
-    },
-    {
-      "id": "qwen-2.5-3b",
-      "name": "Qwen2.5 3B Smarter but slower",
-      "filename": "qwen2.5-3b-instruct-q4_k_m.gguf",
-      "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
-      "sha256": "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
-      "size_bytes": 2104932768,
-      "size_mb": 2007.42,
-      "type": "insight",
-      "format": "gguf",
-      "quantization": "Q4_K_M",
-      "enabled": true,
-      "tiers": ["high"],
-      "recommended_tiers": ["high"],
-      "min_ram_gb": 5
-    },
-    {
-      "id": "whisper-base",
-      "name": "Whisper Base “Fast”",
-      "filename": "ggml-base.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin?download=true",
-      "sha256": "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
-      "size_bytes": 147958784,
-      "size_mb": 141.1,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "F16",
-      "enabled": true,
-      "tiers": ["low", "medium", "high"],
-      "recommended_tiers": ["low"],
-      "min_ram_gb": 4
-    },
-    {
-      "id": "whisper-small",
-      "name": "Whisper Small Balanced",
-      "filename": "ggml-small-q8_0.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q8_0.bin?download=true",
-      "sha256": "49c8fb02b65e6049d5fa6c04f81f53b867b5ec9540406812c643f177317f779f",
-      "size_bytes": 264458592,
-      "size_mb": 252.21,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "q8_0",
-      "enabled": true,
-      "tiers": ["medium", "high"],
-      "recommended_tiers": ["medium"],
-      "min_ram_gb": 6
-    },
-    {
-      "id": "whisper-large-v3-turbo",
-      "name": "Whisper Large V3 Turbo Maximum Accuracy",
-      "filename": "ggml-large-v3-turbo-q8_0.bin",
-      "repo": "ggerganov/whisper.cpp",
-      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q8_0.bin?download=true",
-      "sha256": "317eb69c11673c9de1e1f0d459b253999804ec71ac4c23c17ecf5fbe24e259a1",
-      "size_bytes": 874188800,
-      "size_mb": 833.69,
-      "type": "speech",
-      "format": "bin",
-      "quantization": "q8_0",
-      "enabled": true,
-      "tiers": ["high"],
-      "recommended_tiers": ["high"],
-      "min_ram_gb": 8
-    }
-  ]
+    "version":  "1.4.0",
+    "min_app_version":  "1.0.0",
+    "updated_at":  "2026-05-08",
+    "models":  [
+                   {
+                       "id":  "bge-m3",
+                       "name":  "BGE-M3 Multilingual Embedding",
+                       "filename":  "model_quantized.onnx",
+                       "repo":  "keisuke-miyako/bge-m3-onnx-int8",
+                       "url":  "https://huggingface.co/keisuke-miyako/bge-m3-onnx-int8/resolve/555b6999f110948bd61b9000e4d1d8d6197e2735/model_quantized.onnx?download=true",
+                       "sha256":  "56ae6f25bc41d23fd927ad10578e8519dceeb34025f2816d24bf8dc",
+                       "size_bytes":  568587100,
+                       "size_mb":  542.22,
+                       "type":  "embedding",
+                       "format":  "onnx",
+                       "quantization":  "int8",
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "qwen-2.5-1.5b",
+                       "name":  "Qwen2.5 1.5B Fast \u0026 Accurate",
+                       "filename":  "qwen2.5-1.5b-instruct-q5_k_m.gguf",
+                       "repo":  "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
+                       "url":  "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q5_k_m.gguf?download=true",
+                       "sha256":  "b46661073c18e5b56a41fa320975f866a00def1ff08feef4718e013258896f8c",
+                       "size_bytes":  1285493120,
+                       "size_mb":  1225.94,
+                       "type":  "insight",
+                       "format":  "gguf",
+                       "quantization":  "Q5_K_M",
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low"
+                                             ],
+                       "min_ram_gb":  4
+                   },
+                   {
+                       "id":  "gemma2-2b",
+                       "name":  "Gemma2 2B Smooth and reliable",
+                       "filename":  "Q4_K_M/Q4_K_M-00001-of-00001.gguf",
+                       "repo":  "LiteLLMs/gemma-2b-it-GGUF",
+                       "url":  "https://huggingface.co/LiteLLMs/gemma-2b-it-GGUF/resolve/b9eca650752e3dcb34f5693b9588f3c5ba424c81/Q4_K_M/Q4_K_M-00001-of-00001.gguf?download=true",
+                       "sha256":  "5a4add284b691e7619252f60956b02fbf09baa37442e59ff9c375c3173f39c48",
+                       "size_bytes":  1630263328,
+                       "size_mb":  1554.74,
+                       "type":  "insight",
+                       "format":  "gguf",
+                       "quantization":  "Q4_K_M",
+                       "enabled":  true,
+                       "tiers":  [
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "medium"
+                                             ],
+                       "min_ram_gb":  4
+                   },
+                   {
+                       "id":  "qwen-2.5-3b",
+                       "name":  "Qwen2.5 3B Smarter but slower",
+                       "filename":  "qwen2.5-3b-instruct-q4_k_m.gguf",
+                       "repo":  "Qwen/Qwen2.5-3B-Instruct-GGUF",
+                       "url":  "https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF/resolve/7dabda4d13d513e3e842b20f0d435c732f172cbe/qwen2.5-3b-instruct-q4_k_m.gguf?download=true",
+                       "sha256":  "626b4a6678b86442240e33df819e00132d3ba7dddfe1cdc4fbb18e0a9615c62d",
+                       "size_bytes":  2104932768,
+                       "size_mb":  2007.42,
+                       "type":  "insight",
+                       "format":  "gguf",
+                       "quantization":  "Q4_K_M",
+                       "enabled":  true,
+                       "tiers":  [
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  5
+                   },
+                   {
+                       "id":  "whisper-base",
+                       "name":  "Whisper Base â€œFastâ€",
+                       "filename":  "ggml-base.bin",
+                       "repo":  "ggerganov/whisper.cpp",
+                       "url":  "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin?download=true",
+                       "sha256":  "60ed5bc3dd14eea856493d334349b405782ddcaf0028d4b5df4088345fba2efe",
+                       "size_bytes":  147958784,
+                       "size_mb":  141.1,
+                       "type":  "speech",
+                       "format":  "bin",
+                       "quantization":  "F16",
+                       "speech_backend":  "whisper",
+                       "experimental":  true,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low"
+                                             ],
+                       "min_ram_gb":  4
+                   },
+                   {
+                       "id":  "whisper-small",
+                       "name":  "Whisper Small Balanced",
+                       "filename":  "ggml-small-q8_0.bin",
+                       "repo":  "ggerganov/whisper.cpp",
+                       "url":  "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-small-q8_0.bin?download=true",
+                       "sha256":  "49c8fb02b65e6049d5fa6c04f81f53b867b5ec9540406812c643f177317f779f",
+                       "size_bytes":  264458592,
+                       "size_mb":  252.21,
+                       "type":  "speech",
+                       "format":  "bin",
+                       "quantization":  "q8_0",
+                       "speech_backend":  "whisper",
+                       "experimental":  true,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "medium"
+                                             ],
+                       "min_ram_gb":  6
+                   },
+                   {
+                       "id":  "whisper-large-v3-turbo",
+                       "name":  "Whisper Large V3 Turbo Maximum Accuracy",
+                       "filename":  "ggml-large-v3-turbo-q8_0.bin",
+                       "repo":  "ggerganov/whisper.cpp",
+                       "url":  "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-large-v3-turbo-q8_0.bin?download=true",
+                       "sha256":  "317eb69c11673c9de1e1f0d459b253999804ec71ac4c23c17ecf5fbe24e259a1",
+                       "size_bytes":  874188800,
+                       "size_mb":  833.69,
+                       "type":  "speech",
+                       "format":  "bin",
+                       "quantization":  "q8_0",
+                       "speech_backend":  "whisper",
+                       "experimental":  true,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  8
+                   },
+                   {
+                       "id":  "ar.zip",
+                       "name":  "Vosk Arabic Language Pack",
+                       "filename":  "ar.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/ar.zip?download=true",
+                       "sha256":  "357469ae1bb4d7a3810c9cd6b86d33bc135898dfc134e6df8bc2ddd28c5fe77a",
+                       "size_bytes":  333237453,
+                       "size_mb":  317.8,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "ar",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "cn.zip",
+                       "name":  "Vosk Chinese Language Pack",
+                       "filename":  "cn.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/cn.zip?download=true",
+                       "sha256":  "3af8b0e7e0f835ae9d414ce5df580237a3cfb08d586c9fbbb0f7ff29ad5b14ba",
+                       "size_bytes":  43903877,
+                       "size_mb":  41.87,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "zh",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "de.zip",
+                       "name":  "Vosk German Language Pack",
+                       "filename":  "de.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/de.zip?download=true",
+                       "sha256":  "b7e53c90b1f0a38456f4cd62b366ecd58803cd97cd42b06438e2c131713d5e43",
+                       "size_bytes":  46504346,
+                       "size_mb":  44.35,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "de",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "en.zip",
+                       "name":  "Vosk English Language Pack",
+                       "filename":  "en.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/en.zip?download=true",
+                       "sha256":  "30f26242c4eb449f948e42cb302dd7a686cb29a3423a8367f99ff41780942498",
+                       "size_bytes":  41209037,
+                       "size_mb":  39.3,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "en",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "es.zip",
+                       "name":  "Vosk Spanish Language Pack",
+                       "filename":  "es.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/es.zip?download=true",
+                       "sha256":  "09b239888f633ef2f0b4e09736e3d9936acfd810bc65d53fad45261762c6511f",
+                       "size_bytes":  39814431,
+                       "size_mb":  37.97,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "es",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "fr.zip",
+                       "name":  "Vosk French Language Pack",
+                       "filename":  "fr.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/fr.zip?download=true",
+                       "sha256":  "170cce4efbc69a8c559427374640538c17e32640872b976858aa1d67a97e1253",
+                       "size_bytes":  46001029,
+                       "size_mb":  43.87,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "fr",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "hi.zip",
+                       "name":  "Vosk Hindi Language Pack",
+                       "filename":  "hi.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/hi.zip?download=true",
+                       "sha256":  "7c50a10866889f0ac21d912c20537a055a597ed09fc1d3e5bcd798f9f0017e48",
+                       "size_bytes":  44459622,
+                       "size_mb":  42.4,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "hi",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "it.zip",
+                       "name":  "Vosk Italian Language Pack",
+                       "filename":  "it.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/it.zip?download=true",
+                       "sha256":  "9ec65e75861d1c6c2e457cccd932705340dcdf233f5b239f00733b4de0bf3267",
+                       "size_bytes":  49660559,
+                       "size_mb":  47.36,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "it",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "ja.zip",
+                       "name":  "Vosk Japanese Language Pack",
+                       "filename":  "ja.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/ja.zip?download=true",
+                       "sha256":  "efa092d280153a77615e9e0c7d7283e93e600de3d19d3bec686c57ef19d52eac",
+                       "size_bytes":  49702502,
+                       "size_mb":  47.4,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "ja",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "ko.zip",
+                       "name":  "Vosk Korean Language Pack",
+                       "filename":  "ko.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/ko.zip?download=true",
+                       "sha256":  "eea36124087fed26c59996a4761519458e3bd185e8ea9d9865ad8760c4a1d989",
+                       "size_bytes":  86916465,
+                       "size_mb":  82.89,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "ko",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "nl.zip",
+                       "name":  "Vosk Dutch Language Pack",
+                       "filename":  "nl.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/nl.zip?download=true",
+                       "sha256":  "039811c3b829de64e4f123a9f684a53784005b212a346ac0b899dc7efce2ed0a",
+                       "size_bytes":  40443576,
+                       "size_mb":  38.57,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "nl",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "pt.zip",
+                       "name":  "Vosk Portuguese Language Pack",
+                       "filename":  "pt.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/pt.zip?download=true",
+                       "sha256":  "6e1ce909032e1afa7a88e68a3d628ecafff302bdf195befab308826c395e93b7",
+                       "size_bytes":  32453427,
+                       "size_mb":  30.95,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "pt",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "ru.zip",
+                       "name":  "Vosk Russian Language Pack",
+                       "filename":  "ru.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/ru.zip?download=true",
+                       "sha256":  "961d5ff98a17f4aa6de69864d0aa71fa5bac682301d2b5d17a3f24c5c99a46d4",
+                       "size_bytes":  46231716,
+                       "size_mb":  44.09,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "ru",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   },
+                   {
+                       "id":  "tr.zip",
+                       "name":  "Vosk Turkish Language Pack",
+                       "filename":  "tr.zip",
+                       "repo":  "MouseInFrance/vosk-models",
+                       "url":  "https://huggingface.co/MouseInFrance/vosk-models/resolve/61e9c3047d0a5916a56ff0f54f085721f3a5a834/tr.zip?download=true",
+                       "sha256":  "8c8d07cec1bce31add14967c16891c84152cdf76d391e33c08278119b9ea96e5",
+                       "size_bytes":  36857446,
+                       "size_mb":  35.15,
+                       "type":  "speech",
+                       "format":  "zip",
+                       "quantization":  "N/A",
+                       "speech_backend":  "vosk",
+                       "language_code":  "tr",
+                       "experimental":  false,
+                       "enabled":  true,
+                       "tiers":  [
+                                     "low",
+                                     "medium",
+                                     "high"
+                                 ],
+                       "recommended_tiers":  [
+                                                 "low",
+                                                 "medium",
+                                                 "high"
+                                             ],
+                       "min_ram_gb":  3
+                   }
+               ]
 }
+
