@@ -9,7 +9,7 @@
                        "filename":  "model_quantized.onnx",
                        "repo":  "keisuke-miyako/bge-m3-onnx-int8",
                        "url":  "https://huggingface.co/keisuke-miyako/bge-m3-onnx-int8/resolve/555b6999f110948bd61b9000e4d1d8d6197e2735/model_quantized.onnx?download=true",
-                       "sha256":  "56ae6f25bc41d23fd927ad10578e8519dceeb34025f2816d24bf8dc",
+                       "sha256":  "56ae6f25bc41d23fd927ad10578e8510d5668d519dceeb34025f2816d24bf8dc",
                        "size_bytes":  568587100,
                        "size_mb":  542.22,
                        "type":  "embedding",
