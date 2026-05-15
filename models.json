@@ -94,7 +94,7 @@
                        "recommended_tiers":  [
                                                  "low"
                                              ],
-                       "min_ram_gb":  4
+                       "min_ram_gb":  5
                    },
                    {
                        "id":  "whisper-small",
