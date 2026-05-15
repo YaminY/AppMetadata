@@ -29,29 +29,6 @@
                        "min_ram_gb":  3
                    },
                    {
-                       "id":  "qwen-2.5-1.5b",
-                       "name":  "Qwen2.5 1.5B Fast \u0026 Accurate",
-                       "filename":  "qwen2.5-1.5b-instruct-q5_k_m.gguf",
-                       "repo":  "Qwen/Qwen2.5-1.5B-Instruct-GGUF",
-                       "url":  "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/91cad51170dc346986eccefdc2dd33a9da36ead9/qwen2.5-1.5b-instruct-q5_k_m.gguf?download=true",
-                       "sha256":  "b46661073c18e5b56a41fa320975f866a00def1ff08feef4718e013258896f8c",
-                       "size_bytes":  1285493120,
-                       "size_mb":  1225.94,
-                       "type":  "insight",
-                       "format":  "gguf",
-                       "quantization":  "Q5_K_M",
-                       "enabled":  true,
-                       "tiers":  [
-                                     "low",
-                                     "medium",
-                                     "high"
-                                 ],
-                       "recommended_tiers":  [
-                                                 "low"
-                                             ],
-                       "min_ram_gb":  4
-                   },
-                   {
                        "id":  "gemma2-2b",
                        "name":  "Gemma2 2B Smooth and reliable",
                        "filename":  "Q4_K_M/Q4_K_M-00001-of-00001.gguf",
