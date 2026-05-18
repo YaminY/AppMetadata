@@ -73,7 +73,7 @@
                    },
                    {
                        "id":  "whisper-base",
-                       "name":  "Whisper Base â€œFastâ€",
+                       "name":  "Whisper Base Fast",
                        "filename":  "ggml-base.bin",
                        "repo":  "ggerganov/whisper.cpp",
                        "url":  "https://huggingface.co/ggerganov/whisper.cpp/resolve/5359861c739e955e79d9a303bcbc70fb988958b1/ggml-base.bin?download=true",
