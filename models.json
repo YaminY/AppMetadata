@@ -26,7 +26,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  4
                    },
                    {
                        "id":  "gemma2-2b",
@@ -48,7 +48,7 @@
                        "recommended_tiers":  [
                                                  "medium"
                                              ],
-                       "min_ram_gb":  5
+                       "min_ram_gb":  4
                    },
                    {
                        "id":  "qwen-2.5-3b",
@@ -69,7 +69,7 @@
                        "recommended_tiers":  [
                                                  "high"
                                              ],
-                       "min_ram_gb":  7
+                       "min_ram_gb":  6
                    },
                    {
                        "id":  "whisper-base",
@@ -94,7 +94,7 @@
                        "recommended_tiers":  [
                                                  "low"
                                              ],
-                       "min_ram_gb":  5
+                       "min_ram_gb":  4
                    },
                    {
                        "id":  "whisper-small",
@@ -118,7 +118,7 @@
                        "recommended_tiers":  [
                                                  "medium"
                                              ],
-                       "min_ram_gb":  5
+                       "min_ram_gb":  4
                    },
                    {
                        "id":  "whisper-large-v3-turbo",
@@ -141,7 +141,7 @@
                        "recommended_tiers":  [
                                                  "high"
                                              ],
-                       "min_ram_gb":  7
+                       "min_ram_gb":  6
                    },
                    {
                        "id":  "ar.zip",
@@ -169,7 +169,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "cn.zip",
@@ -197,7 +197,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "de.zip",
@@ -225,7 +225,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "en.zip",
@@ -253,7 +253,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "es.zip",
@@ -281,7 +281,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "fr.zip",
@@ -309,7 +309,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "hi.zip",
@@ -337,7 +337,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "it.zip",
@@ -365,7 +365,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "ja.zip",
@@ -393,7 +393,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "ko.zip",
@@ -421,7 +421,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "nl.zip",
@@ -449,7 +449,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "pt.zip",
@@ -477,7 +477,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "ru.zip",
@@ -505,7 +505,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    },
                    {
                        "id":  "tr.zip",
@@ -533,7 +533,7 @@
                                                  "medium",
                                                  "high"
                                              ],
-                       "min_ram_gb":  3
+                       "min_ram_gb":  2
                    }
                ]
 }
