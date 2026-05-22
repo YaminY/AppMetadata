@@ -1,0 +1,20 @@
+Privacy Policy for Orint
+Last Updated: May 2026
+
+1. Overview
+We are committed to absolute data sovereignty. This privacy policy governs your use of the mobile application Orint ("the Application"). The Application is designed to operate 100% locally on your device without reliance on mandatory cloud infrastructure.
+
+2. Data Collection and Transmission
+We do not collect, harvest, or transmit any personal data, user input, journal entries, or habit logs. All data generated within the Application stays strictly within the device's private sandbox storage. 
+
+3. Local-First Processing & AI
+Any data processing, log parsing, local vector database indexing, or artificial intelligence inference happens entirely on your physical device hardware. No input data or queries are transmitted to external servers for processing.
+
+4. Third-Party Sharing
+Because we do not collect or store your data, we never share, sell, trade, or distribute your information to any third-party networks, analytics companies, or ad services.
+
+5. Data Deletion
+All data is stored locally. You have full control over your data and can completely delete all stored records at any time simply by clearing the application storage or uninstalling the app from your device.
+
+6. Contact Us
+If you have any questions regarding privacy while using the Application, please contact us via email at yamin.j87@gmail.com.
