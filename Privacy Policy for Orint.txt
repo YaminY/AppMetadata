@@ -1,20 +1,20 @@
 Privacy Policy for Orint
-Last Updated: May 2026
 
-1. Overview
-We are committed to absolute data sovereignty. This privacy policy governs your use of the mobile application Orint ("the Application"). The Application is designed to operate 100% locally on your device without reliance on mandatory cloud infrastructure.
+Orint is designed around a local-first philosophy. Your habits, journals, reflections, and AI processing remain on your device by default.
 
-2. Data Collection and Transmission
-We do not collect, harvest, or transmit any personal data, user input, journal entries, or habit logs. All data generated within the Application stays strictly within the device's private sandbox storage. 
+We do not run analytics, advertising trackers, or backend systems that collect your personal habit or journal content.
 
-3. Local-First Processing & AI
-Any data processing, log parsing, local vector database indexing, or artificial intelligence inference happens entirely on your physical device hardware. No input data or queries are transmitted to external servers for processing.
+Core features work without account creation or mandatory cloud infrastructure.
 
-4. Third-Party Sharing
-Because we do not collect or store your data, we never share, sell, trade, or distribute your information to any third-party networks, analytics companies, or ad services.
+Optional permissions (such as microphone, calendar access, or notifications) are only used for features you explicitly enable and can be revoked at any time in your device settings.
 
-5. Data Deletion
-All data is stored locally. You have full control over your data and can completely delete all stored records at any time simply by clearing the application storage or uninstalling the app from your device.
+AI models and application resources may be downloaded to your device to enable local features. Your personal journal or habit content is not uploaded for AI processing.
 
-6. Contact Us
-If you have any questions regarding privacy while using the Application, please contact us via email at yamin.j87@gmail.com.
+If you choose to export data, share logs, use platform sync services, or make purchases through app stores, those actions are handled through your selected platform or provider according to their own policies.
+
+You remain in control of your local data, including deleting records, exporting backups, or removing all app data by uninstalling the application or clearing device storage.
+
+For privacy questions:
+yamin.j87@outlook.com
+
+Last updated: May 2026
